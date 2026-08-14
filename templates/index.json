@@ -1,0 +1,491 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Professional LED Teeth Whitening at Home",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get Your GLOW Kit",
+            "button_link_1": "shopify://products/glow-professional-led-teeth-whitening-kit",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "subtext": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Professional-strength whitening at home — without the R3,500–R8,000 dentist bill. Free delivery across South Africa and a 30-day money-back guarantee.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "subtext",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "left",
+        "show_text_below": true,
+        "image": "shopify://shop_images/glow-hero-desktop.jpg"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Shop GLOW",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_8BU9Qd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DM679x": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Professional Whitening Is Out of Reach",
+            "heading_size": "h1"
+          }
+        },
+        "text_NEdpG8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You've noticed the stains. Coffee. Wine. Years of buildup.<br/><br/>And the dentist quote? R3,500–R8,000. Just for whitening.<br/><br/>That's 5–12x the cost of a quality product.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DM679x",
+        "text_NEdpG8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_36fT7c": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pPq9Uy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Same Professional Results, R649",
+            "heading_size": "h1"
+          }
+        },
+        "text_Tpfq8e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GLOW delivers the same professional-grade whitening formula used in dental offices. At home. In 10 minutes. For R649.<br/><br/>No dentist appointment. No weeks of waiting. No guilt over the price.<br/><br/>Results you can see immediately. Confidence you can feel today.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pPq9Uy",
+        "text_Tpfq8e"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_7cbBzj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fEmgYL": {
+          "type": "column",
+          "settings": {
+            "title": "Apply",
+            "text": "<p>Place the gentle gel in the custom tray. Takes 30 minutes.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dcjkXU": {
+          "type": "column",
+          "settings": {
+            "title": "Light",
+            "text": "<p>The professional-grade LED light activates the whitening formula. Sit back. Relax.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LM4wFd": {
+          "type": "column",
+          "settings": {
+            "title": "Smile",
+            "text": "<p>Rinse and check your results. Most see whitening after one session.</p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fEmgYL",
+        "column_dcjkXU",
+        "column_LM4wFd"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Three Steps to Your Brightest Smile",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_jiBjRd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GfRjQP": {
+          "type": "column",
+          "settings": {
+            "title": "⭐ Results in 30 Minutes",
+            "text": "<p>Most see visible whitening within one session.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b3mbFF": {
+          "type": "column",
+          "settings": {
+            "title": "💰 30-Day Money-Back",
+            "text": "<p>Not satisfied? Full refund, no questions asked.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KTbpgA": {
+          "type": "column",
+          "settings": {
+            "title": "🚚 Free Delivery",
+            "text": "<p>Free tracked delivery anywhere in South Africa.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DaGxn7": {
+          "type": "column",
+          "settings": {
+            "title": "🧪 Professional Formula",
+            "text": "<p>The same whitening strength used in dental offices.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GfRjQP",
+        "column_b3mbFF",
+        "column_KTbpgA",
+        "column_DaGxn7"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Why Buy from Us",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Mm7hNe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_D8TexK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trusted by Real People",
+            "heading_size": "h1"
+          }
+        },
+        "text_VUNMCe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>⭐⭐⭐⭐⭐</p><p>I was skeptical about at-home whitening, but this actually works. My results are as good as my dentist's — at a fraction of the cost. Highly recommend!</p><p>Thandi, Cape Town</p><p>⭐⭐⭐⭐⭐</p><p>Quick, easy, and it delivers. No fuss. Real results. Already on my third kit.</p><p>Johan, Johannesburg</p><p>⭐⭐⭐⭐⭐</p><p>Everyone asks me what I did differently. This has honestly boosted my confidence. Worth every rand.</p><p>Lindiwe, Durban</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D8TexK",
+        "text_VUNMCe"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_WXXKiV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GHaf6K": {
+          "type": "column",
+          "settings": {
+            "title": "⚡ Results in 30 Minutes",
+            "text": "<p>A brighter smile takes just 30 minutes a session.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cPkRUE": {
+          "type": "column",
+          "settings": {
+            "title": "🏠 Designed for Home Use",
+            "text": "<p>Simple, safe and effective at-home application.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LKDcmq": {
+          "type": "column",
+          "settings": {
+            "title": "🛡️ Safe for Enamel",
+            "text": "<p>Professional formula that will not damage your teeth.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ni9QkY": {
+          "type": "column",
+          "settings": {
+            "title": "📊 Professional Strength",
+            "text": "<p>The same peroxide concentration dental offices use.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XzXQfX": {
+          "type": "column",
+          "settings": {
+            "title": "😊 Low Sensitivity",
+            "text": "<p>Gentle formula with a sensitivity protocol included.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kaJit6": {
+          "type": "column",
+          "settings": {
+            "title": "💯 30-Day Guarantee",
+            "text": "<p>Try GLOW risk-free. Full refund if you are not satisfied.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GHaf6K",
+        "column_cPkRUE",
+        "column_LKDcmq",
+        "column_ni9QkY",
+        "column_XzXQfX",
+        "column_kaJit6"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Why GLOW Works",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_9qJwRd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Fcyc7V": {
+          "type": "heading",
+          "settings": {
+            "heading": "30-Day Money-Back Guarantee",
+            "heading_size": "h1"
+          }
+        },
+        "text_jqjnec": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you don't love GLOW, send it back within 30 days for a full refund. We'll even cover return shipping. No questions asked. That's our promise.</p><p>We're that confident you'll be happy.</p><p><a href=\"/products/glow-professional-led-teeth-whitening-kit\">Order Risk-Free</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fcyc7V",
+        "text_jqjnec"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_i9fGPV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TBq9GF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Questions? We've Got Answers",
+            "heading_size": "h1"
+          }
+        },
+        "text_qEQEaC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How long until I see results?</p><p>Most people see visible whitening after their first 30-minute session. Full results (3–5 shades lighter) typically take 3–5 days of daily use.</p><p>Is it safe? Will it damage my teeth?</p><p>Yes, it's safe. The whitening formula is the same concentration used in professional dental offices. The LED light is non-UV and designed for at-home use.</p><p>What if I'm not happy with it?</p><p>30-day money-back guarantee. If you're not satisfied for any reason, email us. We'll process a full refund within 3–5 business days, no questions asked.</p><p><a href=\"/pages/faq\">View All FAQs →</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TBq9GF",
+        "text_qEQEaC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_AaVJX9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BznWDm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready for Your Brightest Smile?",
+            "heading_size": "h1"
+          }
+        },
+        "text_YYf68f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join thousands of happy customers. 30-day guarantee means zero risk. Just confidence.</p><p><a href=\"/products/glow-professional-led-teeth-whitening-kit\">Order Now</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BznWDm",
+        "text_YYf68f"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "compare": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "\n<div class=\"glow-sec\">\n  <h2 class=\"glow-h2\">Dentist whitening vs GLOW</h2>\n  <p class=\"glow-sub\">Same job. Very different bill.</p>\n  <div class=\"glow-cmp\">\n    <div class=\"glow-card glow-card--muted\">\n      <div class=\"glow-card__tag\">At the dentist</div>\n      <ul>\n        <li><span>R3,500 – R8,000</span></li>\n        <li>Multiple appointments</li>\n        <li>Time off work</li>\n        <li>Booked weeks ahead</li>\n      </ul>\n    </div>\n    <div class=\"glow-card glow-card--hero\">\n      <div class=\"glow-card__tag glow-card__tag--on\">With GLOW</div>\n      <ul>\n        <li><span>R649 once</span></li>\n        <li>At home, on your schedule</li>\n        <li>30 minutes a session</li>\n        <li>Free delivery · 30-day guarantee</li>\n      </ul>\n      <a class=\"glow-btn\" href=\"/products/glow-professional-led-teeth-whitening-kit\">Get Your GLOW Kit</a>\n    </div>\n  </div>\n</div>\n<style>\n.glow-sec{max-width:1100px;margin:0 auto;padding:12px 20px 8px;font-family:inherit}\n.glow-h2{text-align:center;font-size:clamp(2.4rem,4vw,4rem);margin:0 0 6px;color:#2C3E50;letter-spacing:-.02em}\n.glow-sub{text-align:center;color:#6b7a89;margin:0 0 34px;font-size:1.7rem}\n.glow-cmp{display:grid;grid-template-columns:1fr 1fr;gap:22px}\n@media(max-width:749px){.glow-cmp{grid-template-columns:1fr}}\n.glow-card{border-radius:16px;padding:30px 28px;background:#fff;border:1px solid rgba(44,62,80,.10)}\n.glow-card--muted{opacity:.92}\n.glow-card--hero{background:linear-gradient(160deg,#4A90E2 0%,#2E5C8A 100%);color:#fff;border:0;\n  box-shadow:0 18px 40px rgba(74,144,226,.30)}\n.glow-card__tag{display:inline-block;font-size:1.25rem;letter-spacing:.10em;text-transform:uppercase;\n  color:#6b7a89;margin-bottom:16px;font-weight:600}\n.glow-card__tag--on{color:#fff;opacity:.9}\n.glow-card ul{list-style:none;margin:0;padding:0}\n.glow-card li{padding:11px 0;border-bottom:1px solid rgba(44,62,80,.09);font-size:1.65rem}\n.glow-card--hero li{border-bottom:1px solid rgba(255,255,255,.20)}\n.glow-card li:last-of-type{border-bottom:0}\n.glow-card li span{font-size:2.4rem;font-weight:700;letter-spacing:-.01em}\n.glow-btn{display:inline-block;margin-top:22px;background:#fff;color:#2E5C8A;text-decoration:none;\n  padding:14px 30px;border-radius:8px;font-weight:700;font-size:1.6rem}\n.glow-btn:hover{opacity:.92}\n</style>\n",
+        "color_scheme": "scheme-2",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text_8BU9Qd",
+    "rich_text_36fT7c",
+    "multicolumn_7cbBzj",
+    "multicolumn_jiBjRd",
+    "featured_collection",
+    "compare",
+    "rich_text_Mm7hNe",
+    "multicolumn_WXXKiV",
+    "rich_text_9qJwRd",
+    "rich_text_i9fGPV",
+    "rich_text_AaVJX9"
+  ]
+}

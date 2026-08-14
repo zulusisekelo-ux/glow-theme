@@ -1,0 +1,174 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "assurance": {
+          "type": "text",
+          "settings": {
+            "text": "Free delivery in South Africa · 30-day money-back guarantee",
+            "text_style": "body"
+          }
+        },
+        "trust_row": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "stopwatch",
+            "heading_1": "Results in 30 minutes",
+            "icon_2": "truck",
+            "heading_2": "Free delivery",
+            "icon_3": "return",
+            "heading_3": "30-day money-back"
+          }
+        },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Complete your kit",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 4,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
+        "tab_how": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to use it",
+            "icon": "clipboard",
+            "content": "<ol><li><strong>Apply</strong> — a thin line of gel along the tray.</li><li><strong>Light</strong> — insert the tray, switch on the LED, relax for 30 minutes.</li><li><strong>Smile</strong> — rinse and check the difference.</li></ol><p>Most people see visible whitening after the first session. Full results, typically 3–5 shades lighter, take 3–5 days of daily use.</p>",
+            "page": ""
+          }
+        },
+        "tab_delivery": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery",
+            "icon": "truck",
+            "content": "<p><strong>Free delivery anywhere in South Africa.</strong> No minimum spend.</p><p>Orders are dispatched within 1–2 business days and usually arrive within 8–12 business days, fully tracked. You'll get a tracking number by email and SMS as soon as your parcel leaves us.</p>",
+            "page": ""
+          }
+        },
+        "tab_returns": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns &amp; guarantee",
+            "icon": "return",
+            "content": "<p><strong>30-day money-back guarantee.</strong> If you're not satisfied for any reason, message us through the Contact page within 30 days of delivery and we'll send return instructions. Refunds are processed within 3–5 business days of the return arriving.</p><p>We cover return shipping on guarantee returns within South Africa.</p>",
+            "page": ""
+          }
+        },
+        "tab_safety": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Safety &amp; sensitivity",
+            "icon": "heart",
+            "content": "<p>The LED light is non-UV and designed for at-home use, and the formula is safe for enamel.</p><p>Temporary sensitivity affects roughly 15% of users — it's mild and settles once you pause or reduce frequency. A sensitivity protocol is included in the guide.</p><p>Not suitable during pregnancy. Don't swallow the gel. If you have gum disease or mouth ulcers, wait until they've healed. Whitening gel doesn't change the colour of crowns, veneers or fillings. GLOW is a cosmetic product and isn't a substitute for dental care.</p>",
+            "page": ""
+          }
+        },
+        "sticky_atc": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "\n<div id=\"glow-sticky-atc\" aria-hidden=\"true\">\n  <div class=\"glow-sticky__inner\">\n    <div class=\"glow-sticky__meta\">\n      <span class=\"glow-sticky__name\">GLOW Whitening Kit</span>\n      <span class=\"glow-sticky__price\">{{ product.price | money }}</span>\n    </div>\n    <button type=\"button\" class=\"glow-sticky__btn\">Add to cart</button>\n  </div>\n</div>\n<style>\n  #glow-sticky-atc{position:fixed;left:0;right:0;bottom:0;z-index:8;background:#fff;\n    border-top:1px solid rgba(44,62,80,.12);box-shadow:0 -4px 18px rgba(44,62,80,.10);\n    padding:10px 14px calc(10px + env(safe-area-inset-bottom));transform:translateY(120%);\n    transition:transform .25s ease;display:none}\n  #glow-sticky-atc.is-visible{transform:translateY(0)}\n  .glow-sticky__inner{display:flex;align-items:center;gap:12px;max-width:600px;margin:0 auto}\n  .glow-sticky__meta{display:flex;flex-direction:column;line-height:1.2;flex:1 1 auto;min-width:0}\n  .glow-sticky__name{font-size:1.2rem;color:#2C3E50;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n  .glow-sticky__price{font-size:1.5rem;font-weight:600;color:#2C3E50}\n  .glow-sticky__btn{flex:0 0 auto;background:#4A90E2;color:#fff;border:0;border-radius:6px;\n    padding:13px 26px;font-size:1.4rem;font-weight:600;cursor:pointer}\n  .glow-sticky__btn:disabled{opacity:.5;cursor:not-allowed}\n  @media screen and (max-width:749px){#glow-sticky-atc{display:block}}\n</style>\n<script>\n(function(){\n  var bar=document.getElementById('glow-sticky-atc');\n  if(!bar)return;\n  var btn=bar.querySelector('.glow-sticky__btn');\n  function realBtn(){return document.querySelector('product-form button[name=\"add\"], form[action*=\"/cart/add\"] button[name=\"add\"]');}\n  btn.addEventListener('click',function(){var r=realBtn();if(r&&!r.disabled){r.click();}});\n  var target=realBtn();\n  if(!target){bar.remove();return;}\n  if('IntersectionObserver' in window){\n    new IntersectionObserver(function(es){\n      es.forEach(function(e){ bar.classList.toggle('is-visible', !e.isIntersecting && e.boundingClientRect.top < 0); });\n    },{threshold:0}).observe(target);\n  } else { bar.classList.add('is-visible'); }\n  new MutationObserver(function(){var r=realBtn();if(r){btn.disabled=r.disabled;}})\n    .observe(target.closest('form')||document.body,{subtree:true,attributes:true,childList:true});\n})();\n</script>\n"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "assurance",
+        "quantity_selector",
+        "buy_buttons",
+        "trust_row",
+        "complementary",
+        "description",
+        "tab_how",
+        "tab_delivery",
+        "tab_returns",
+        "tab_safety",
+        "sticky_atc"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "disclosures": {
+      "type": "disclosures",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "disclosures",
+    "related-products"
+  ]
+}
