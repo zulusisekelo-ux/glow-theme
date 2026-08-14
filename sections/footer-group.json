@@ -1,0 +1,54 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "newsletter_enable": true,
+        "newsletter_heading": "Get whitening tips and offers",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "brand": {
+          "type": "text",
+          "settings": {
+            "heading": "GLOW",
+            "subtext": "<p>Professional-strength teeth whitening you can do at home, without the dentist price tag. Free tracked delivery across South Africa and a 30-day money-back guarantee on every order.</p>"
+          }
+        },
+        "shop": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "footer"
+          }
+        },
+        "newsletter_note": {
+          "type": "text",
+          "settings": {
+            "heading": "Questions?",
+            "subtext": "<p>Message us through the <a href=\"/pages/contact-us\">Contact page</a> — we reply within one business day, Monday to Friday, 09:00–17:00 SAST.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "brand",
+        "shop",
+        "newsletter_note"
+      ]
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
