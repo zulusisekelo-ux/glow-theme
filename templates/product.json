@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -18,6 +27,13 @@
           "type": "price",
           "settings": {}
         },
+        "assurance": {
+          "type": "text",
+          "settings": {
+            "text": "Free delivery in South Africa · 30-day money-back guarantee",
+            "text_style": "body"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -27,17 +43,6 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "assurance": {
-          "type": "text",
-          "settings": {
-            "text": "Free delivery in South Africa · 30-day money-back guarantee",
-            "text_style": "body"
           }
         },
         "trust_row": {
@@ -64,6 +69,10 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         },
         "tab_how": {
           "type": "collapsible_tab",
@@ -104,7 +113,7 @@
         "sticky_atc": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "\n<div id=\"glow-sticky-atc\" aria-hidden=\"true\">\n  <div class=\"glow-sticky__inner\">\n    <div class=\"glow-sticky__meta\">\n      <span class=\"glow-sticky__name\">GLOW Whitening Kit</span>\n      <span class=\"glow-sticky__price\">{{ product.price | money }}</span>\n    </div>\n    <button type=\"button\" class=\"glow-sticky__btn\">Add to cart</button>\n  </div>\n</div>\n<style>\n  #glow-sticky-atc{position:fixed;left:0;right:0;bottom:0;z-index:8;background:#fff;\n    border-top:1px solid rgba(44,62,80,.12);box-shadow:0 -4px 18px rgba(44,62,80,.10);\n    padding:10px 14px calc(10px + env(safe-area-inset-bottom));transform:translateY(120%);\n    transition:transform .25s ease;display:none}\n  #glow-sticky-atc.is-visible{transform:translateY(0)}\n  .glow-sticky__inner{display:flex;align-items:center;gap:12px;max-width:600px;margin:0 auto}\n  .glow-sticky__meta{display:flex;flex-direction:column;line-height:1.2;flex:1 1 auto;min-width:0}\n  .glow-sticky__name{font-size:1.2rem;color:#2C3E50;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n  .glow-sticky__price{font-size:1.5rem;font-weight:600;color:#2C3E50}\n  .glow-sticky__btn{flex:0 0 auto;background:#4A90E2;color:#fff;border:0;border-radius:6px;\n    padding:13px 26px;font-size:1.4rem;font-weight:600;cursor:pointer}\n  .glow-sticky__btn:disabled{opacity:.5;cursor:not-allowed}\n  @media screen and (max-width:749px){#glow-sticky-atc{display:block}}\n</style>\n<script>\n(function(){\n  var bar=document.getElementById('glow-sticky-atc');\n  if(!bar)return;\n  var btn=bar.querySelector('.glow-sticky__btn');\n  function realBtn(){return document.querySelector('product-form button[name=\"add\"], form[action*=\"/cart/add\"] button[name=\"add\"]');}\n  btn.addEventListener('click',function(){var r=realBtn();if(r&&!r.disabled){r.click();}});\n  var target=realBtn();\n  if(!target){bar.remove();return;}\n  if('IntersectionObserver' in window){\n    new IntersectionObserver(function(es){\n      es.forEach(function(e){ bar.classList.toggle('is-visible', !e.isIntersecting && e.boundingClientRect.top < 0); });\n    },{threshold:0}).observe(target);\n  } else { bar.classList.add('is-visible'); }\n  new MutationObserver(function(){var r=realBtn();if(r){btn.disabled=r.disabled;}})\n    .observe(target.closest('form')||document.body,{subtree:true,attributes:true,childList:true});\n})();\n</script>\n"
+            "custom_liquid": "<div id=\"glow-sticky-atc\" aria-hidden=\"true\">\n  <div class=\"glow-sticky__inner\">\n    <div class=\"glow-sticky__meta\">\n      <span class=\"glow-sticky__name\">GLOW Whitening Kit</span>\n      <span class=\"glow-sticky__price\">{{ product.price | money }}</span>\n    </div>\n    <button type=\"button\" class=\"glow-sticky__btn\">Add to cart</button>\n  </div>\n</div>\n<style>\n  #glow-sticky-atc{position:fixed;left:0;right:0;bottom:0;z-index:8;background:#fff;\n    border-top:1px solid rgba(44,62,80,.12);box-shadow:0 -4px 18px rgba(44,62,80,.10);\n    padding:10px 14px calc(10px + env(safe-area-inset-bottom));transform:translateY(120%);\n    transition:transform .25s ease;display:none}\n  #glow-sticky-atc.is-visible{transform:translateY(0)}\n  .glow-sticky__inner{display:flex;align-items:center;gap:12px;max-width:600px;margin:0 auto}\n  .glow-sticky__meta{display:flex;flex-direction:column;line-height:1.2;flex:1 1 auto;min-width:0}\n  .glow-sticky__name{font-size:1.2rem;color:#2C3E50;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n  .glow-sticky__price{font-size:1.5rem;font-weight:600;color:#2C3E50}\n  .glow-sticky__btn{flex:0 0 auto;background:#4A90E2;color:#fff;border:0;border-radius:6px;\n    padding:13px 26px;font-size:1.4rem;font-weight:600;cursor:pointer}\n  .glow-sticky__btn:disabled{opacity:.5;cursor:not-allowed}\n  @media screen and (max-width:749px){#glow-sticky-atc{display:block}}\n</style>\n<script>\n(function(){\n  var bar=document.getElementById('glow-sticky-atc');\n  if(!bar)return;\n  var btn=bar.querySelector('.glow-sticky__btn');\n  function realBtn(){return document.querySelector('product-form button[name=\"add\"], form[action*=\"/cart/add\"] button[name=\"add\"]');}\n  btn.addEventListener('click',function(){var r=realBtn();if(r&&!r.disabled){r.click();}});\n  var target=realBtn();\n  if(!target){bar.remove();return;}\n  if('IntersectionObserver' in window){\n    new IntersectionObserver(function(es){\n      es.forEach(function(e){ bar.classList.toggle('is-visible', !e.isIntersecting && e.boundingClientRect.top < 0); });\n    },{threshold:0}).observe(target);\n  } else { bar.classList.add('is-visible'); }\n  new MutationObserver(function(){var r=realBtn();if(r){btn.disabled=r.disabled;}})\n    .observe(target.closest('form')||document.body,{subtree:true,attributes:true,childList:true});\n})();\n</script>"
           }
         }
       },
@@ -140,13 +149,6 @@
         "padding_bottom": 12
       }
     },
-    "disclosures": {
-      "type": "disclosures",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -164,11 +166,22 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "disclosures": {
+      "type": "disclosures",
+      "settings": {
+        "heading": "Disclosures",
+        "heading_size": "h2",
+        "open_by_default": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
+    "related-products",
     "main",
-    "disclosures",
-    "related-products"
+    "disclosures"
   ]
 }
