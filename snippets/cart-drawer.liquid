@@ -488,7 +488,7 @@
         </form>
       </cart-drawer-items>
 {%- comment -%} GLOW cart-drawer upsell {%- endcomment -%}
-{%- assign glow_upsell_handles = 'glow-v34-colour-corrector,glow-whitening-pen-2-pack,glow-whitening-gel-3-syringes' | split: ',' -%}
+{%- assign glow_upsell_handles = 'glow-partner-device-second-led-unit,glow-v34-colour-corrector,glow-whitening-pen-2-pack,glow-whitening-gel-3-syringes' | split: ',' -%}
 {%- assign glow_in_cart = '' -%}
 {%- for line in cart.items -%}
   {%- assign glow_in_cart = glow_in_cart | append: line.product.handle | append: ',' -%}
