@@ -150,8 +150,8 @@
         "column_GfRjQP": {
           "type": "column",
           "settings": {
-            "title": "⭐ Results in 30 Minutes",
-            "text": "<p>Most see visible whitening within one session.</p>",
+            "title": "⏱️ 30-Minute Sessions",
+            "text": "<p>One session runs for 30 minutes, at home, whenever suits you.</p>",
             "link_label": "",
             "link": ""
           }
@@ -160,7 +160,7 @@
           "type": "column",
           "settings": {
             "title": "💰 30-Day Money-Back",
-            "text": "<p>Not satisfied? Full refund, no questions asked.</p>",
+            "text": "<p>Not for you? Full refund, no questions asked.</p>",
             "link_label": "",
             "link": ""
           }
@@ -177,8 +177,8 @@
         "column_DaGxn7": {
           "type": "column",
           "settings": {
-            "title": "🧪 Professional Formula",
-            "text": "<p>The same whitening strength used in dental offices.</p>",
+            "title": "🔋 Cordless and Rechargeable",
+            "text": "<p>USB charging, so nothing trails off the counter while you use it.</p>",
             "link_label": "",
             "link": ""
           }
@@ -214,14 +214,14 @@
         "heading_D8TexK": {
           "type": "heading",
           "settings": {
-            "heading": "Trusted by Real People",
+            "heading": "No reviews yet. So here is our promise instead.",
             "heading_size": "h1"
           }
         },
         "text_VUNMCe": {
           "type": "text",
           "settings": {
-            "text": "<p>⭐⭐⭐⭐⭐</p><p>I was skeptical about at-home whitening, but this actually works. My results are as good as my dentist's — at a fraction of the cost. Highly recommend!</p><p>Thandi, Cape Town</p><p>⭐⭐⭐⭐⭐</p><p>Quick, easy, and it delivers. No fuss. Real results. Already on my third kit.</p><p>Johan, Johannesburg</p><p>⭐⭐⭐⭐⭐</p><p>Everyone asks me what I did differently. This has honestly boosted my confidence. Worth every rand.</p><p>Lindiwe, Durban</p>"
+            "text": "<p>GLOW is new in South Africa. Rather than show you reviews we have not earned yet, here is what we will do.</p><p>Try it for <strong>30 days</strong>. If it is not for you, send it back and we refund you in full — no forms and no argument. Delivery is free, both ways.</p><p>Message us on WhatsApp or email and a real person answers, usually the same day. When customers do start leaving reviews, we will publish them here exactly as written.</p>"
           }
         }
       },
@@ -245,8 +245,8 @@
         "column_GHaf6K": {
           "type": "column",
           "settings": {
-            "title": "⚡ Results in 30 Minutes",
-            "text": "<p>A brighter smile takes just 30 minutes a session.</p>",
+            "title": "⏱️ 30 Minutes a Session",
+            "text": "<p>Put it in, switch it on, carry on with what you were doing.</p>",
             "link_label": "",
             "link": ""
           }
@@ -254,8 +254,8 @@
         "column_cPkRUE": {
           "type": "column",
           "settings": {
-            "title": "🏠 Designed for Home Use",
-            "text": "<p>Simple, safe and effective at-home application.</p>",
+            "title": "🏠 Made for Home Use",
+            "text": "<p>No appointment, no dental chair, no waiting room.</p>",
             "link_label": "",
             "link": ""
           }
@@ -263,8 +263,8 @@
         "column_LKDcmq": {
           "type": "column",
           "settings": {
-            "title": "🛡️ Safe for Enamel",
-            "text": "<p>Professional formula that will not damage your teeth.</p>",
+            "title": "🔋 Cordless and Rechargeable",
+            "text": "<p>Charges by USB and works anywhere in the house.</p>",
             "link_label": "",
             "link": ""
           }
@@ -272,8 +272,8 @@
         "column_ni9QkY": {
           "type": "column",
           "settings": {
-            "title": "📊 Professional Strength",
-            "text": "<p>The same peroxide concentration dental offices use.</p>",
+            "title": "🚚 Free SA Delivery",
+            "text": "<p>Tracked delivery to any address in South Africa, at no cost.</p>",
             "link_label": "",
             "link": ""
           }
@@ -281,8 +281,8 @@
         "column_XzXQfX": {
           "type": "column",
           "settings": {
-            "title": "😊 Low Sensitivity",
-            "text": "<p>Gentle formula with a sensitivity protocol included.</p>",
+            "title": "💬 Real Support",
+            "text": "<p>WhatsApp or email us. A person answers, usually the same day.</p>",
             "link_label": "",
             "link": ""
           }
@@ -291,7 +291,7 @@
           "type": "column",
           "settings": {
             "title": "💯 30-Day Guarantee",
-            "text": "<p>Try GLOW risk-free. Full refund if you are not satisfied.</p>",
+            "text": "<p>Try it for 30 days. Full refund if it is not for you.</p>",
             "link_label": "",
             "link": ""
           }
