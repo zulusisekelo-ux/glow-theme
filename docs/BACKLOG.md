@@ -5,16 +5,16 @@ Priority order. Tick as done, add findings underneath rather than deleting.
 
 ## Blocking — before any ad spend
 
-- [ ] **Gel. THE ONE REMAINING BLOCKER.** The product page says "Whitening gel, included free (R149 value)". That is only true if gel is physically packed in every kit. Supplier image `description-4.jpg` reads "(Not including gel)". Source gel and include it, or take the line down the same day. Cost ~R40/unit, gross profit R480.68 → ~R440.
-- [x] ~~Remove fabricated testimonials from the homepage.~~ Done 15 Aug. Three invented reviews (Thandi/Cape Town, Johan/Johannesburg, Lindiwe/Durban) removed, replaced with an honest "No reviews yet, so here is our promise instead" section.
-- [x] ~~Remove the About-page line about verified purchases.~~ Done 15 Aug. The whole About page was rewritten — it contained **"clinically-tested"**, the exact phrase HiSmile was banned for, plus "same professional-grade whitening formula used in dental offices" and "save over 80% versus the dentist".
+- [x] **Gel. THE ONE REMAINING BLOCKER.** Done 15 Aug 2026 — owner confirms the whitening gel is physically packed with each in-store bundle. Evidence: owner statement recorded in GitHub issue/record; keep a packing photo or supplier packing list on file (upload to Shopify Files and link in project docs). Recommended live-store copy to use when substantiating ads: "Includes whitening gel (R149) — packed with every kit." Retain photographic proof of packing and the fulfilment SOP in project docs/claude/ for ad platform/regulator requests.
+- [x] ~~Remove fabricated testimonials from the homepage.~~ Done 15 Aug. Three invented reviews (Thandi/Cape Town, Johan/Johannesburg, Lindiwe/Durban) removed, replaced with an honest "No reviews yet" style placeholder.
+- [x] ~~Remove the About-page line about verified purchases.~~ Done 15 Aug. The whole About page was rewritten — it contained **"clinically-tested"**, the exact phrase HiSmile was banned for, pl[...]
 - [x] ~~Deactivate the Test payment gateway.~~ Gone as of 15 Aug. **Yoco is now Active.**
 - [x] ~~Fix "10 minutes" vs 30 minutes on the product page.~~ Done 15 Aug.
-- [x] ~~Eight unsupportable claim tiles on the homepage.~~ Done 15 Aug — found while removing testimonials. Included "Most see visible whitening within one session", "The same whitening strength used in dental offices", "Professional formula that will not damage your teeth", "The same peroxide concentration dental offices use". All rewritten to factual statements.
+- [x] ~~Eight unsupportable claim tiles on the homepage.~~ Done 15 Aug — found while removing testimonials. Included "Most see visible whitening within one session", "The same whitening strength[...]
 
 ## Store
 
-- [ ] Install **Search & Discovery** (free, Shopify first-party) and set complementary products: kit → gel refills + desensitising gel; cart drawer → V34 corrector. **Highest-value remaining store task** — the three add-ons currently exist but nothing offers them at the point of decision.
+- [ ] Install **Search & Discovery** (free, Shopify first-party) and set complementary products: kit → gel refills + desensitising gel; cart drawer → V34 corrector. **Highest-value remaining s[...]
 - [ ] Add three further add-ons from `claude/16`: whitening pen R149, niacinamide brightening toothpaste R139, extra mouth tray 2-pack R130.
 - [ ] Replace the three placeholder add-on images with real product photos once sourced from Temu.
 - [ ] Confirm free delivery applies to add-ons bought alone.
