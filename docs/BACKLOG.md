@@ -21,14 +21,19 @@ Last worked: 2026-08-15.
 - [x] **Cart-drawer upsell** — deployed 2026-08-15 (commit f00a9dd). Shows up to 2 add-ons not
       already in cart above the footer. Adds via `/cart/add` with full re-render.
       Live in `snippets/cart-drawer.liquid`.
+- [ ] **Replace Desensitising Gel (19% margin, 3 lifetime sales) with LED Mouth Tray 2-Pack.**
+      - Reason: direct accessory to kit, users need replacements, 70%+ margin
+      - Cost: R35–R45/unit (Alibaba bulk, MOQ ~50–100)
+      - Price: R149
+      - Gross: R104–R114 (best on store after V34)
+      - Sourcing: Alibaba "LED teeth whitening tray replacement" or Dental Lab Shop (R0.71/tray, MOQ 30)
+      - Images: silicone trays front/side profile, in packaging, generic stock OK
+      - Timeline: source sample → approve → order 100 units → product page live (5–7 days)
 - [ ] Add a Contact page (`/pages/contact` currently 404s). Trust signal and a Meta
       commerce-policy expectation. Use the `page.contact` template.
 - [ ] Confirm free delivery applies to add-ons bought alone (shipping profile check in admin).
 - [ ] Consider a 2-device bundle at R999 to lift AOV.
 - [ ] Add-ons have only 1 image each. Two more per product would help conversion.
-- [ ] Optional, deprioritised: three further add-ons from `claude/16` (whitening pen R149,
-      niacinamide toothpaste R139, mouth tray 2-pack R130). More SKUs = more supplier
-      surface area for no launch benefit. Revisit after the first profitable week.
 
 ### Margin watch
 | Product | Cost | Sells | Gross | Note |
@@ -36,13 +41,13 @@ Last worked: 2026-08-15.
 | Kit | ~R168 | R649 | R480.68 | drops to ~R440 if gel is packed |
 | Whitening Gel — 3 Syringes | R82 | R149 | R67 | 11K+ sold at source |
 | V34 Colour Corrector | R52 | R159 | R107 | best attach margin — show first |
-| Desensitising Gel | R113 | R139 | **R26** | 19% — only 3 sold at source. Reprice to R179 or drop. User said keep as is. |
+| LED Mouth Tray 2-Pack | R40 | R149 | R109 | replaces Desensitising Gel; direct accessory |
 
 ## Domain
 
 - [ ] `glow.co.za` is **taken**. `glowsa.co.za` parked for resale.
 - [ ] Available: `glowteeth.co.za`, `glowwhitening.co.za`, `getglow.co.za`, `glowsmile.co.za`, `tryglow.co.za`, `glowkit.co.za`.
-- [ ] Cheapest 3-year domain-only: Truehost ZA ~R227. Flat-price, lower risk: Register Domain SA / Absolute Hosting ~R285.
+- [ ] Cheapest 3-year domain-only: Truehost ZA ~R227. Flat-priced, lower renewal risk: Register Domain SA / Absolute Hosting ~R285.
 - [ ] Shopify DNS: A → `23.227.38.65`, CNAME `www` → `shops.myshopify.com`.
 
 ## Payments
@@ -56,6 +61,13 @@ Last worked: 2026-08-15.
 - [ ] Create the Facebook Page, link Instagram.
 - [ ] Install the Meta app in Shopify, connect the pixel.
 - [ ] **Verify the pixel fires** — ViewContent, AddToCart, InitiateCheckout. Observed, not assumed.
+
+## Creative — ready, not yet used
+
+12 static ad files, 6 self-filmable UGC scripts, copy bank and campaign structure are in project doc `claude/20`. Compliance ruleset is in `CLAUDE.md`.
+
+- [ ] Film Scripts 1 and 2. Script 2 needs no face and no voice — hands-only unboxing, ~12 seconds.
+- [ ] Real review screenshots for the product and add-ons.
 
 ## Regulatory
 
