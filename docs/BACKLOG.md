@@ -1,53 +1,65 @@
 # GLOW backlog
 
 Priority order. Tick as done, add findings underneath rather than deleting.
-**Last worked: 15 Aug 2026.**
+Last worked: 2026-08-15.
 
 ## Blocking — before any ad spend
 
-- [x] **Gel. THE ONE REMAINING BLOCKER.** Done 15 Aug 2026 — owner confirms the whitening gel is physically packed with each in-store bundle. Evidence: owner statement recorded in GitHub issue/record; keep a packing photo or supplier packing list on file (upload to Shopify Files and link in project docs). Recommended live-store copy to use when substantiating ads: "Includes whitening gel (R149) — packed with every kit." Retain photographic proof of packing and the fulfilment SOP in project docs/claude/ for ad platform/regulator requests.
-- [x] ~~Remove fabricated testimonials from the homepage.~~ Done 15 Aug. Three invented reviews (Thandi/Cape Town, Johan/Johannesburg, Lindiwe/Durban) removed, replaced with an honest "No reviews yet" style placeholder.
-- [x] ~~Remove the About-page line about verified purchases.~~ Done 15 Aug. The whole About page was rewritten — it contained **"clinically-tested"**, the exact phrase HiSmile was banned for, pl[...]
-- [x] ~~Deactivate the Test payment gateway.~~ Gone as of 15 Aug. **Yoco is now Active.**
-- [x] ~~Fix "10 minutes" vs 30 minutes on the product page.~~ Done 15 Aug.
-- [x] ~~Eight unsupportable claim tiles on the homepage.~~ Done 15 Aug — found while removing testimonials. Included "Most see visible whitening within one session", "The same whitening strength[...]
+- [ ] **Gel.** Source whitening gel and confirm it ships inside every kit. The product page says "Whitening gel, included free (R149 value)". If gel is not in the box, that line must come down the same day. Supplier image `description-4.jpg` reads "(Not including gel)". Cost impact ~R40/unit: gross R480.68 → ~R440.
+- [x] Remove fabricated testimonials from the homepage. — replaced with "No reviews yet. So here is our promise instead."
+- [x] Remove the About-page line about verified reviews. — About page rewritten; the ASA-risky phrase "clinically-tested" also removed.
+- [x] Deactivate the **Test payment gateway**. — gone; **Yoco is Active**.
 
 ## Store
 
-- [ ] Install **Search & Discovery** (free, Shopify first-party) and set complementary products: kit → gel refills + desensitising gel; cart drawer → V34 corrector. **Highest-value remaining s[...]
-- [ ] Add three further add-ons from `claude/16`: whitening pen R149, niacinamide brightening toothpaste R139, extra mouth tray 2-pack R130.
-- [ ] Replace the three placeholder add-on images with real product photos once sourced from Temu.
-- [ ] Confirm free delivery applies to add-ons bought alone.
+- [x] Install **Search & Discovery** and set complementary products.
+      Kit → Desensitising Gel, V34 Colour Corrector, Whitening Gel 3-Syringes.
+      Verified live: `/recommendations/products?intent=complementary&product_id=10387424837915`
+      returns all three under the heading "Complete your kit".
+- [x] Replace the three placeholder add-on images with real product photos. — real Temu
+      photography injected at full resolution; all three products have a live image.
+- [x] **Cart-drawer upsell** — deployed 2026-08-15 (commit f00a9dd). Shows up to 2 add-ons not
+      already in cart above the footer. Adds via `/cart/add` with full re-render.
+      Live in `snippets/cart-drawer.liquid`.
+- [ ] Add a Contact page (`/pages/contact` currently 404s). Trust signal and a Meta
+      commerce-policy expectation. Use the `page.contact` template.
+- [ ] Confirm free delivery applies to add-ons bought alone (shipping profile check in admin).
 - [ ] Consider a 2-device bundle at R999 to lift AOV.
+- [ ] Add-ons have only 1 image each. Two more per product would help conversion.
+- [ ] Optional, deprioritised: three further add-ons from `claude/16` (whitening pen R149,
+      niacinamide toothpaste R139, mouth tray 2-pack R130). More SKUs = more supplier
+      surface area for no launch benefit. Revisit after the first profitable week.
+
+### Margin watch
+| Product | Cost | Sells | Gross | Note |
+|---|---|---|---|---|
+| Kit | ~R168 | R649 | R480.68 | drops to ~R440 if gel is packed |
+| Whitening Gel — 3 Syringes | R82 | R149 | R67 | 11K+ sold at source |
+| V34 Colour Corrector | R52 | R159 | R107 | best attach margin — show first |
+| Desensitising Gel | R113 | R139 | **R26** | 19% — only 3 sold at source. Reprice to R179 or drop. User said keep as is. |
 
 ## Domain
 
-- [ ] Register one. `glow.co.za` is **taken** (active glow-stick retailer). `glowsa.co.za` is parked for resale.
-- [ ] Confirmed available: **glowteeth.co.za**, **glowwhitening.co.za**, getglow.co.za, glowsmile.co.za, tryglow.co.za, glowkit.co.za.
-- [ ] Cheapest 3-year domain-only: Truehost ZA ~R227. Flat-priced, lower renewal risk: Register Domain SA / Absolute Hosting ~R285.
-- [ ] Shopify DNS: A record → `23.227.38.65`, CNAME `www` → `shops.myshopify.com`.
+- [ ] `glow.co.za` is **taken**. `glowsa.co.za` parked for resale.
+- [ ] Available: `glowteeth.co.za`, `glowwhitening.co.za`, `getglow.co.za`, `glowsmile.co.za`, `tryglow.co.za`, `glowkit.co.za`.
+- [ ] Cheapest 3-year domain-only: Truehost ZA ~R227. Flat-price, lower risk: Register Domain SA / Absolute Hosting ~R285.
+- [ ] Shopify DNS: A → `23.227.38.65`, CNAME `www` → `shops.myshopify.com`.
 
 ## Payments
 
-- [x] ~~Install and activate Yoco.~~ Active as of 15 Aug.
-- [ ] Resolve PayPal — still shows "Activate PayPal".
+- [x] Yoco installed and **Active**.
+- [ ] Resolve PayPal "Setup incomplete" (or remove it — a half-set-up gateway at checkout costs sales).
 
-## Meta
+## Meta — owner actions, out of scope for the agent
 
-Business portfolio **GLOW Whitening SA** exists, `business_id=1087447840804837`. Ad account created with **ZAR / GMT+2** (the currency default was USD and would have been permanent).
-
-- [ ] Add payment method to the ad account (owner only — never automate this).
+- [ ] Add payment method to the ad account (owner only).
 - [ ] Create the Facebook Page, link Instagram.
 - [ ] Install the Meta app in Shopify, connect the pixel.
 - [ ] **Verify the pixel fires** — ViewContent, AddToCart, InitiateCheckout. Observed, not assumed.
 
-## Creative — ready, not yet used
-
-12 static ad files, 6 self-filmable UGC scripts, copy bank and campaign structure are in project doc `claude/20`. Compliance ruleset is in `CLAUDE.md`.
-
-- [ ] Film Scripts 1 and 2. Script 2 needs no face and no voice — hands-only unboxing, ~12 seconds.
-- [ ] Real review screenshots for the product and add-ons.
-
 ## Regulatory
 
-- [ ] Confirm the SA position for a peroxide cosmetic whitening product under the Foodstuffs, Cosmetics and Disinfectants Act before running claims-based ads.
+- [ ] Confirm the SA position for a peroxide cosmetic whitening product under the
+      Foodstuffs, Cosmetics and Disinfectants Act 54 of 1972 before running claims-based ads.
+      Research blocked 2026-08-15 by a tool limit; retry. Starting points:
+      SAHPRA's copy of the Act, and the CMS beauty-regulation guide for South Africa.
