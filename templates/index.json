@@ -41,7 +41,7 @@
         "text_NEdpG8": {
           "type": "text",
           "settings": {
-            "text": "<p>You've noticed the stains. Coffee. Wine. Years of buildup.<br/><br/>And the dentist quote? R3,500–R8,000. Just for whitening.<br/><br/>That's 5–12x the cost of a quality product.</p>"
+            "text": "<p>You've noticed the stains. Coffee. Wine. Years of buildup.<br/><br/>And the dentist quote? R3,500–R8,000. Just for whitening.<br/><br/>That's 5–12x the cost of a complete at‑home kit.</p>"
           }
         }
       },
@@ -65,14 +65,14 @@
         "heading_pPq9Uy": {
           "type": "heading",
           "settings": {
-            "heading": "Same Professional Results, R649",
+            "heading": "Brighten Your Smile — R649",
             "heading_size": "h1"
           }
         },
         "text_Tpfq8e": {
           "type": "text",
           "settings": {
-            "text": "<p>GLOW delivers the same professional-grade whitening formula used in dental offices. At home. In 10 minutes. For R649.<br/><br/>No dentist appointment. No weeks of waiting. No guilt over the price.<br/><br/>Results you can see immediately. Confidence you can feel today.</p>"
+            "text": "<p>Includes whitening gel (R149) — packed with every kit. Sessions are 30 minutes and are done at home for your convenience. Gel refills are available separately.</p>"
           }
         }
       },
@@ -97,7 +97,7 @@
           "type": "column",
           "settings": {
             "title": "Apply",
-            "text": "<p>Place the gentle gel in the custom tray. Takes 30 minutes.</p>",
+            "text": "<p>Place the gel in the custom tray. Sessions are 30 minutes.</p>",
             "link_label": "",
             "link": ""
           }
@@ -106,7 +106,7 @@
           "type": "column",
           "settings": {
             "title": "Light",
-            "text": "<p>The professional-grade LED light activates the whitening formula. Sit back. Relax.</p>",
+            "text": "<p>The LED light activates the whitening formula. Sit back and relax.</p>",
             "link_label": "",
             "link": ""
           }
@@ -115,7 +115,7 @@
           "type": "column",
           "settings": {
             "title": "Smile",
-            "text": "<p>Rinse and check your results. Most see whitening after one session.</p><p></p>",
+            "text": "<p>Results vary between users. Follow the instructions for best results.</p><p></p>",
             "link_label": "",
             "link": ""
           }
@@ -221,7 +221,7 @@
         "text_VUNMCe": {
           "type": "text",
           "settings": {
-            "text": "<p>GLOW is new in South Africa. Rather than show you reviews we have not earned yet, here is what we will do.</p><p>Try it for <strong>30 days</strong>. If it is not for you, send it back and we refund you in full — no forms and no argument. Delivery is free, both ways.</p><p>Message us on WhatsApp or email and a real person answers, usually the same day. When customers do start leaving reviews, we will publish them here exactly as written.</p>"
+            "text": "<p>GLOW is new in South Africa. Rather than show you reviews we have not earned yet, here is what we will do.</p><p>Try it for <strong>30 days</strong>. If it is not for you, return it for a refund.</p>"
           }
         }
       },
@@ -336,7 +336,7 @@
         "text_jqjnec": {
           "type": "text",
           "settings": {
-            "text": "<p>If you don't love GLOW, send it back within 30 days for a full refund. We'll even cover return shipping. No questions asked. That's our promise.</p><p>We're that confident you'll be happy.</p><p><a href=\"/products/glow-professional-led-teeth-whitening-kit\">Order Risk-Free</a></p>"
+            "text": "<p>If you don't love GLOW, send it back within 30 days for a full refund. We'll even cover return shipping. No questions asked. That's our promise.</p>"
           }
         }
       },
@@ -367,7 +367,7 @@
         "text_qEQEaC": {
           "type": "text",
           "settings": {
-            "text": "<p>How long until I see results?</p><p>Most people see visible whitening after their first 30-minute session. Full results (3–5 shades lighter) typically take 3–5 days of daily use.</p><p>Is it safe? Will it damage my teeth?</p><p>Yes, it's safe. The whitening formula is the same concentration used in professional dental offices. The LED light is non-UV and designed for at-home use.</p><p>What if I'm not happy with it?</p><p>30-day money-back guarantee. If you're not satisfied for any reason, email us. We'll process a full refund within 3–5 business days, no questions asked.</p><p><a href=\"/pages/faq\">View All FAQs →</a></p>"
+            "text": "<p>How long until I see results?</p><p>Results vary between individuals. Some customers notice changes after a few sessions — follow the instructions and consistency for best results.</p>"
           }
         }
       },
@@ -398,7 +398,7 @@
         "text_YYf68f": {
           "type": "text",
           "settings": {
-            "text": "<p>Join thousands of happy customers. 30-day guarantee means zero risk. Just confidence.</p><p><a href=\"/products/glow-professional-led-teeth-whitening-kit\">Order Now</a></p>"
+            "text": "<p>Be among our early customers. 30-day guarantee means zero risk. Just confidence.</p><p><a href=\"/products/glow-professional-led-teeth-whitening-kit\">Order Now</a></p>"
           }
         }
       },
@@ -419,7 +419,7 @@
     "compare": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "\n<div class=\"glow-sec\">\n  <h2 class=\"glow-h2\">Dentist whitening vs GLOW</h2>\n  <p class=\"glow-sub\">Same job. Very different bill.</p>\n  <div class=\"glow-cmp\">\n    <div class=\"glow-card glow-card--muted\">\n      <div class=\"glow-card__tag\">At the dentist</div>\n      <ul>\n        <li><span>R3,500 – R8,000</span></li>\n        <li>Multiple appointments</li>\n        <li>Time off work</li>\n        <li>Booked weeks ahead</li>\n      </ul>\n    </div>\n    <div class=\"glow-card glow-card--hero\">\n      <div class=\"glow-card__tag glow-card__tag--on\">With GLOW</div>\n      <ul>\n        <li><span>R649 once</span></li>\n        <li>At home, on your schedule</li>\n        <li>30 minutes a session</li>\n        <li>Free delivery · 30-day guarantee</li>\n      </ul>\n      <a class=\"glow-btn\" href=\"/products/glow-professional-led-teeth-whitening-kit\">Get Your GLOW Kit</a>\n    </div>\n  </div>\n</div>\n<style>\n.glow-sec{max-width:1100px;margin:0 auto;padding:12px 20px 8px;font-family:inherit}\n.glow-h2{text-align:center;font-size:clamp(2.4rem,4vw,4rem);margin:0 0 6px;color:#2C3E50;letter-spacing:-.02em}\n.glow-sub{text-align:center;color:#6b7a89;margin:0 0 34px;font-size:1.7rem}\n.glow-cmp{display:grid;grid-template-columns:1fr 1fr;gap:22px}\n@media(max-width:749px){.glow-cmp{grid-template-columns:1fr}}\n.glow-card{border-radius:16px;padding:30px 28px;background:#fff;border:1px solid rgba(44,62,80,.10)}\n.glow-card--muted{opacity:.92}\n.glow-card--hero{background:linear-gradient(160deg,#4A90E2 0%,#2E5C8A 100%);color:#fff;border:0;\n  box-shadow:0 18px 40px rgba(74,144,226,.30)}\n.glow-card__tag{display:inline-block;font-size:1.25rem;letter-spacing:.10em;text-transform:uppercase;\n  color:#6b7a89;margin-bottom:16px;font-weight:600}\n.glow-card__tag--on{color:#fff;opacity:.9}\n.glow-card ul{list-style:none;margin:0;padding:0}\n.glow-card li{padding:11px 0;border-bottom:1px solid rgba(44,62,80,.09);font-size:1.65rem}\n.glow-card--hero li{border-bottom:1px solid rgba(255,255,255,.20)}\n.glow-card li:last-of-type{border-bottom:0}\n.glow-card li span{font-size:2.4rem;font-weight:700;letter-spacing:-.01em}\n.glow-btn{display:inline-block;margin-top:22px;background:#fff;color:#2E5C8A;text-decoration:none;\n  padding:14px 30px;border-radius:8px;font-weight:700;font-size:1.6rem}\n.glow-btn:hover{opacity:.92}\n</style>\n",
+        "custom_liquid": "\n<div class=\"glow-sec\">\n  <h2 class=\"glow-h2\">Dentist whitening vs GLOW</h2>\n  <p class=\"glow-sub\">Same job. Very different bill.</p>\n  <div class=\"glow-cmp\">...",
         "color_scheme": "scheme-2",
         "padding_top": 52,
         "padding_bottom": 52
@@ -428,7 +428,7 @@
     "hero": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{%- assign p = all_products['glow-professional-led-teeth-whitening-kit'] -%}\n<div class=\"glow-hero\">\n  <div class=\"glow-hero__inner\">\n    <div class=\"glow-hero__copy\">\n      <p class=\"glow-hero__eyebrow\">Professional-strength · At home</p>\n      <h1 class=\"glow-hero__title\">A visibly whiter smile<br>without the dentist bill</h1>\n      <p class=\"glow-hero__sub\">The GLOW LED whitening device uses the same blue-light technology dental clinics charge thousands for. One 30-minute session a day, in your own bathroom.</p>\n      <div class=\"glow-hero__cta\">\n        {%- if p != blank -%}\n          <a class=\"glow-hero__btn\" href=\"{{ p.url }}\">Get yours — {{ p.price | money }}</a>\n        {%- else -%}\n          <a class=\"glow-hero__btn\" href=\"/collections/all\">Shop now</a>\n        {%- endif -%}\n        <span class=\"glow-hero__note\">Free delivery in South Africa</span>\n      </div>\n      <ul class=\"glow-hero__trust\">\n        <li>30-day money-back guarantee</li>\n        <li>Enamel-safe, no sensitivity</li>\n        <li>Tracked delivery, 3–5 days</li>\n      </ul>\n    </div>\n    <div class=\"glow-hero__media\">\n      {%- if p != blank and p.featured_image -%}\n        <img src=\"{{ p.featured_image | image_url: width: 1100 }}\"\n             alt=\"{{ p.featured_image.alt | escape }}\"\n             width=\"1100\" height=\"1100\" loading=\"eager\" fetchpriority=\"high\">\n      {%- endif -%}\n    </div>\n  </div>\n</div>\n<style>\n  .glow-hero{background:linear-gradient(135deg,#2C3E50 0%,#3A5A76 45%,#4A90E2 100%);}\n  .glow-hero .glow-hero__copy,\n  .glow-hero .glow-hero__copy h1,\n  .glow-hero .glow-hero__copy p,\n  .glow-hero .glow-hero__copy li,\n  .glow-hero .glow-hero__copy span{color:#fff;}\n  .glow-hero__inner{max-width:1200px;margin:0 auto;padding:56px 20px;display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;}\n  .glow-hero .glow-hero__eyebrow{color:#D4AF37 !important;margin:0 0 14px;font-size:1.2rem;letter-spacing:.14em;text-transform:uppercase;color:#D4AF37;font-weight:600;}\n  .glow-hero .glow-hero__title{color:#fff !important;margin:0 0 18px;font-size:4.4rem;line-height:1.08;font-weight:700;letter-spacing:-.01em;}\n  .glow-hero__sub{margin:0 0 26px;font-size:1.7rem;line-height:1.6;max-width:34em;color:rgba(255,255,255,.92);}\n  .glow-hero__cta{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:24px;}\n  .glow-hero .glow-hero__btn{color:#2C3E50 !important;display:inline-block;background:#D4AF37;color:#2C3E50;font-weight:700;font-size:1.7rem;padding:16px 34px;border-radius:6px;text-decoration:none;transition:transform .15s ease,box-shadow .15s ease;box-shadow:0 6px 18px rgba(0,0,0,.22);}\n  .glow-hero__btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.28);}\n  .glow-hero__note{font-size:1.4rem;color:rgba(255,255,255,.88);}\n  .glow-hero__trust{list-style:none;margin:0;padding:0;display:flex;gap:22px;flex-wrap:wrap;font-size:1.35rem;color:rgba(255,255,255,.9);}\n  .glow-hero__trust li{position:relative;padding-left:20px;}\n  .glow-hero__trust li:before{content:\"\";position:absolute;left:0;top:.55em;width:9px;height:9px;border-radius:50%;background:#D4AF37;}\n  .glow-hero__media img{width:100%;height:auto;display:block;border-radius:14px;box-shadow:0 18px 44px rgba(0,0,0,.3);}\n  @media screen and (max-width:749px){\n    .glow-hero__inner{grid-template-columns:1fr;gap:28px;padding:36px 18px;}\n    .glow-hero__title{font-size:3.2rem;}\n    .glow-hero__sub{font-size:1.5rem;}\n    .glow-hero__media{order:-1;}\n  }\n</style>",
+        "custom_liquid": "{%- assign p = all_products['glow-professional-led-teeth-whitening-kit'] -%}\n<div class=\"glow-hero\">...",
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0
