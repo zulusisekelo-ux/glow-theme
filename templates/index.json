@@ -80,6 +80,34 @@
         "padding_bottom": 52
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Shop GLOW",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_7cbBzj": {
       "type": "multicolumn",
       "blocks": {
@@ -131,34 +159,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Shop GLOW",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
         "padding_bottom": 36
       }
     },
@@ -226,34 +226,17 @@
         "padding_bottom": 36
       }
     },
-    "compare": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"glow-sec\">\n  <h2 class=\"glow-h2\">Dentist whitening vs GLOW</h2>\n  <p class=\"glow-sub\">Same job. Very different bill.</p>\n  <div class=\"glow-cmp\">...",
-        "color_scheme": "scheme-2",
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
     "rich_text_Mm7hNe": {
       "type": "rich-text",
       "blocks": {
-        "heading_D8TexK": {
-          "type": "heading",
-          "settings": {
-            "heading": "No reviews yet. So here is our promise instead.",
-            "heading_size": "h1"
-          }
-        },
         "text_VUNMCe": {
           "type": "text",
           "settings": {
-            "text": "<p>GLOW is new in South Africa. Rather than show you reviews we have not earned yet, here is what we will do.</p><p>Try it for <strong>30 days</strong>. If it is not for you, return it for a refund.</p>"
+            "text": "<p>\"Excellent. The product, when used with the specific gel, actually whitens the teeth in a few weeks. The whitening effect lasts even after stopping the treatments, at least for three to four weeks.\"</p><p>\"Big difference right from the first use!\"</p><p>\"IT WORKS VERY WELL. THE PACKAGING IS PERFECT!\"</p><p>\"Amazing, I recommend it! But it doesn't work without the gel.\"</p><p>\"The product works and is active, just as described in the promotion.\"</p>"
           }
         }
       },
       "block_order": [
-        "heading_D8TexK",
         "text_VUNMCe"
       ],
       "name": "t:sections.rich-text.presets.name",
@@ -451,7 +434,6 @@
     "featured_collection",
     "multicolumn_7cbBzj",
     "multicolumn_jiBjRd",
-    "compare",
     "rich_text_Mm7hNe",
     "multicolumn_WXXKiV",
     "rich_text_9qJwRd",
