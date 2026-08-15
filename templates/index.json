@@ -1,31 +1,21 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "featured_collection": {
-      "type": "featured-collection",
+    "hero": {
+      "type": "custom-liquid",
       "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Shop GLOW",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
+        "custom_liquid": "{%- assign p = all_products['glow-professional-led-teeth-whitening-kit'] -%}\n<div class=\"glow-hero\">...",
         "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text_8BU9Qd": {
@@ -144,6 +134,34 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Shop GLOW",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_jiBjRd": {
       "type": "multicolumn",
       "blocks": {
@@ -206,6 +224,15 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "compare": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"glow-sec\">\n  <h2 class=\"glow-h2\">Dentist whitening vs GLOW</h2>\n  <p class=\"glow-sub\">Same job. Very different bill.</p>\n  <div class=\"glow-cmp\">...",
+        "color_scheme": "scheme-2",
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "rich_text_Mm7hNe": {
@@ -415,33 +442,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "compare": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "\n<div class=\"glow-sec\">\n  <h2 class=\"glow-h2\">Dentist whitening vs GLOW</h2>\n  <p class=\"glow-sub\">Same job. Very different bill.</p>\n  <div class=\"glow-cmp\">...",
-        "color_scheme": "scheme-2",
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
-    "hero": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{%- assign p = all_products['glow-professional-led-teeth-whitening-kit'] -%}\n<div class=\"glow-hero\">...",
-        "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "hero",
     "rich_text_8BU9Qd",
     "rich_text_36fT7c",
+    "featured_collection",
     "multicolumn_7cbBzj",
     "multicolumn_jiBjRd",
-    "featured_collection",
     "compare",
     "rich_text_Mm7hNe",
     "multicolumn_WXXKiV",
