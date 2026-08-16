@@ -31,13 +31,27 @@
         "text_Tpfq8e": {
           "type": "text",
           "settings": {
-            "text": "<p>Free whitening gel pack (R149 value) with every order. It ships alongside your kit, not sealed inside the device box. Sessions are 30 minutes, done at home. Gel refills are available separately.</p>"
+            "text": "<p>Get the GLOW LED Whitening Kit + FREE R149 Whitening Gel.</p>"
+          }
+        },
+        "text_j9Fn68": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🚚 Free tracked delivery across South Africa.</p>"
+          }
+        },
+        "text_LEXVJB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🛡️ 30-day money-back guarantee.</p>"
           }
         }
       },
       "block_order": [
         "heading_pPq9Uy",
-        "text_Tpfq8e"
+        "text_Tpfq8e",
+        "text_j9Fn68",
+        "text_LEXVJB"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
