@@ -63,6 +63,93 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_jiBjRd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GfRjQP": {
+          "type": "column",
+          "settings": {
+            "title": "⏱️ 30-Minute Sessions",
+            "text": "<p>One session runs for 30 minutes, at home, whenever suits you.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b3mbFF": {
+          "type": "column",
+          "settings": {
+            "title": "💰 30-Day Money-Back",
+            "text": "<p>Not for you? Full refund, no questions asked.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KTbpgA": {
+          "type": "column",
+          "settings": {
+            "title": "🚚 Free Delivery",
+            "text": "<p>Free tracked delivery anywhere in South Africa.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DaGxn7": {
+          "type": "column",
+          "settings": {
+            "title": "🔋 Cordless and Rechargeable",
+            "text": "<p>USB charging, so nothing trails off the counter while you use it.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GfRjQP",
+        "column_b3mbFF",
+        "column_KTbpgA",
+        "column_DaGxn7"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Perks of GLOW.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_awQ8Ag": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XfC8TF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FREE R149 WHITENING GEL INCLUDED WITH FIRST ORDER 💙.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XfC8TF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_product_hn6FRh": {
       "type": "featured-product",
       "blocks": {
@@ -210,70 +297,6 @@
         "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_jiBjRd": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_GfRjQP": {
-          "type": "column",
-          "settings": {
-            "title": "⏱️ 30-Minute Sessions",
-            "text": "<p>One session runs for 30 minutes, at home, whenever suits you.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_b3mbFF": {
-          "type": "column",
-          "settings": {
-            "title": "💰 30-Day Money-Back",
-            "text": "<p>Not for you? Full refund, no questions asked.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_KTbpgA": {
-          "type": "column",
-          "settings": {
-            "title": "🚚 Free Delivery",
-            "text": "<p>Free tracked delivery anywhere in South Africa.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_DaGxn7": {
-          "type": "column",
-          "settings": {
-            "title": "🔋 Cordless and Rechargeable",
-            "text": "<p>USB charging, so nothing trails off the counter while you use it.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_GfRjQP",
-        "column_b3mbFF",
-        "column_KTbpgA",
-        "column_DaGxn7"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Perks of GLOW.",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -523,6 +546,7 @@
   "order": [
     "rich_text_36fT7c",
     "multicolumn_jiBjRd",
+    "rich_text_awQ8Ag",
     "featured_product_hn6FRh",
     "featured_collection_KD8rkW",
     "multicolumn_7cbBzj",
