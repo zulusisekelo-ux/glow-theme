@@ -9,15 +9,6 @@
  */
 {
   "sections": {
-    "hero": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{%- assign p = all_products['glow-professional-led-teeth-whitening-kit'] -%}\n<div class=\"glow-hero\">...",
-        "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_36fT7c": {
       "type": "rich-text",
       "blocks": {
@@ -126,32 +117,83 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "featured_product_hn6FRh": {
+      "type": "featured-product",
+      "blocks": {
+        "text_HMD7xK": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_bDHRfi": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_kLkFXB": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_BLzDaE": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_TdMffW": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_xQRMeY": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_VADjWk": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_HMD7xK",
+        "title_bDHRfi",
+        "price_kLkFXB",
+        "variant_picker_BLzDaE",
+        "quantity_selector_TdMffW",
+        "buy_buttons_xQRMeY",
+        "share_VADjWk"
+      ],
+      "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Shop GLOW",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 5,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
+        "product": "glow-professional-led-teeth-whitening-kit",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "hero": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- assign p = all_products['glow-professional-led-teeth-whitening-kit'] -%}\n<div class=\"glow-hero\">...",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multicolumn_jiBjRd": {
@@ -471,10 +513,10 @@
     }
   },
   "order": [
-    "hero",
     "rich_text_36fT7c",
     "multicolumn_7cbBzj",
-    "featured_collection",
+    "featured_product_hn6FRh",
+    "hero",
     "multicolumn_jiBjRd",
     "rich_text_8BU9Qd",
     "rich_text_i9fGPV",
