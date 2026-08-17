@@ -45,13 +45,22 @@
           "settings": {
             "text": "<p>🛡️ 30-day money-back guarantee.</p>"
           }
+        },
+        "caption_eCU4z9": {
+          "type": "caption",
+          "settings": {
+            "caption": "🇿🇦 Nationwide | 9–14 business days",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "heading_pPq9Uy",
         "text_Tpfq8e",
         "text_j9Fn68",
-        "text_LEXVJB"
+        "text_LEXVJB",
+        "caption_eCU4z9"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -151,14 +160,14 @@
         "heading_DM679x": {
           "type": "heading",
           "settings": {
-            "heading": "Why Professional Whitening Is Out of Reach",
+            "heading": "Professional Whitening Can Cost Thousands.",
             "heading_size": "h1"
           }
         },
         "text_NEdpG8": {
           "type": "text",
           "settings": {
-            "text": "<p>You've noticed the stains. Coffee. Wine. Years of buildup.<br/><br/>And the dentist quote? R3,500–R8,000. Just for whitening.<br/><br/>That's 5–12x the cost of a complete at‑home kit.</p>"
+            "text": "<p>You've noticed the stains. Coffee. Wine. Years of buildup.<br/><br/>And the dentist quote? R3,500–R8,000. Just for whitening.<br/><br/>That's 5–12x the cost of our GLOW at-home Whitening Kit.</p>"
           }
         }
       },
